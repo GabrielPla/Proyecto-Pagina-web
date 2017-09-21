@@ -17,6 +17,7 @@ html {
   border-bottom: 1em double #FF7091;
   border-top: 1em double #FF7091;
   min-width: 100%;
+  text-shadow: 0.2em 0.2em hsla(360, 0%, 0%, 0.8);
 }
 
 h1 {
