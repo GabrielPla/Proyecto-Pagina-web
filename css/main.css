@@ -50,7 +50,6 @@ h3 {
   border-top: 0.1em solid #000;
   border-bottom: 0.1em solid #000;
   margin-top: 0.3em;
-  display: inline-block;
 }
 
 .fondo-general {
@@ -71,7 +70,16 @@ p {
   display: none;
   font-family: 'Quattrocento', serif;
   list-style: none;
-  display: inline;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+  background-color: hsla(360, 100%, 100%, 1)
+}
+
+.mensaje {
+  border-top: 0.1em solid #000;
+  border-bottom: 0.1em solid #000;
+  margin-top: 0.1em;
 }
 
 .contact {
@@ -83,13 +91,22 @@ p {
 }
 
 .boton-contacto {
-  background-color: #CCCAB0;
+  background-color: #D9DEDE;
   width: 6em;
   margin: auto;
   height: 2.5em;
   margin-top: 0.4em;
   margin-bottom: 0.4em;
   border: 0.1em solid #383835;
+}
+
+.boton-contacto:hover {
+  cursor: pointer;
+  background-color: #BBBFBF;
+}
+
+.boton-contacto:active {
+  transform: translateY(0.2em);
 }
 
 .der {
