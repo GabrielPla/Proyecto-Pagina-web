@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
 	margin:0;
 	font-size: 100%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Quattrocento', sans-serif;
 	background: #fff;
 }
 body a {
@@ -28,8 +28,6 @@ input[type="button"],input[type="submit"]{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
-
-}
 h2,h3,h4,h5,h6{
 	margin:0;
 	font-family: 'Montserrat', sans-serif;
@@ -40,7 +38,11 @@ h1{
   font-family: 'Satisfy', sans-serif;
     font-weight: 600; 
 }
-
+.slider_banner_info h4 {
+  margin:0;
+    font-family: 'Quattrocento', sans-serif;
+      font-weight: 600;
+}
 p{
 	margin:0;
 }
@@ -52,6 +54,7 @@ label{
 	margin:0;
 }
 /*--header--*/
+
 .navbar-header h1 {
     text-align: center;
 }
@@ -59,18 +62,13 @@ label{
     margin-right: 0.3em;
 }
 .navbar-header h1 a {
-    color: #FFF;
+    color: #000;
     text-decoration: none;
     font-size: 33px;
     display: block;
-    background: rgb(229,3,225);
+    background: #f1bf9c;
     padding: 34px 20px;
     font-weight: 600;
-}
-.navbar-header h1 a span {
-    font-size: .3em;
-    display: block;
-    letter-spacing: 8px;
 }
 /*-- top-nav --*/
 .glyphicon.glyphicon-phone {
@@ -90,18 +88,18 @@ label{
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .5px;
-	    color: #070707;
+	    color: #000;
 }
 .top-nav-text .call {
     font-size: 14px;
-    color: #ffffff;
+    color: #000;
     font-weight: 600;
     /* float: left; */
     margin-top: 4px;
 }
 .top-nav-text a {
     display: inline-block;
-    color: #fff;
+    color: #000;
     font-size: 14px;
     padding: 7px 30px;
     background: #01bcfa;
@@ -155,7 +153,7 @@ label{
     min-height: inherit;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #99abd5;
+    color: #000;
     background: none;
 }
 .navbar-nav > li {
@@ -165,7 +163,7 @@ label{
 	margin-right:0!important;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
-    color: #ff8c00;
+    color: #000;
 }
 .navbar-right {
     float: right!important;
@@ -186,7 +184,7 @@ label{
 .agileits-login input[type="text"], .agileits-login input[type="password"], .agileits-login input[type="email"], .agileits-login textarea {
     outline: none;
     font-size: 1em;
-    color: #fff;
+    color: #000;
     padding: 10px;
 	letter-spacing: 1px;
     margin: 0;
@@ -206,21 +204,21 @@ label{
     border-bottom: 2px solid rgb(223, 31, 58);
 }
 .agileits-login ::-webkit-input-placeholder {
-   color: #fff; 
+   color: #000; 
 } 
 .agileits-login :-moz-placeholder { /* Firefox 18- */
-   color: #fff;
+   color: #000;
 } 
 .agileits-login ::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff; 
+   color: #000; 
 } 
 .agileits-login :-ms-input-placeholder {  
-   color: #fff; 
+   color: #000; 
 }
 /*-- checkbox --*/
 .agileits-login label {
     font-size: 1em;
-    color: #fff;
+    color: #000;
 	letter-spacing: 0.5px;
     font-weight: 400;
     cursor: pointer;
@@ -251,7 +249,7 @@ input.checkbox:after {
 	z-index: 1;
 	width: 1.2em;
 	height: 1.2em;
-	border: 1px solid #fff; 
+	border: 1px solid #000; 
 	-webkit-transition: .4s ease-in-out;
 	-moz-transition: .4s ease-in-out; 
 	transition: .4s ease-in-out;
@@ -263,7 +261,7 @@ input.checkbox:checked:after {
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	height: 1.2em;
-	border-color: #fff;
+	border-color: #000;
 	border-top-color: transparent;
 	border-right-color: transparent;
 }
@@ -281,11 +279,11 @@ input.checkbox:checked:after {
 }
 @keyframes rippling {
 	50% {
-		border-left-color: #fff;
+		border-left-color: #000;
 	}
 	100% {
-		border-bottom-color: #fff;
-		border-left-color: #fff;
+		border-bottom-color: #000;
+		border-left-color: #000;
 	}
 } 
 /*-- //checkbox --*/ 
@@ -301,7 +299,7 @@ input.checkbox:checked:after {
 }
 .wthree-text ul li a {
     font-size: 1em;
-    color: #fff;
+    color: #000;
 	letter-spacing: 0.5px;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -318,7 +316,7 @@ input.checkbox:checked:after {
 } 
 .agileits-login input[type="submit"] {
     font-size: 1em;
-    color: #fff;
+    color: #000;
     border:none;
     outline: none;
     padding: .8em 5em;
@@ -360,7 +358,7 @@ input.checkbox:checked:after {
 }
 .rslides_tabs .rslides_here a {
   background: rgba(255,255,255,.1);
-  color: #fff;
+  color: #000;
   font-weight: bold;
 }
 .events {
@@ -395,7 +393,7 @@ input.checkbox:checked:after {
 	z-index: 2;
 	font-size: 20px;
 	text-shadow: none;
-	color: #fff;
+	color: #000;
 	left: 0;
 	right: 0;
 	padding: 10px 20px;
@@ -438,13 +436,13 @@ input.checkbox:checked:after {
 #slider3-pager span{
 	width:100px;
 	height:15px;
-	background:#fff;
+	background:#000;
 	display:inline-block;
 	border-radius:30em;
 	opacity:0.6;
 }
 #slider3-pager .rslides_here a {
-  background: #FFF;
+  background: #fff;
   border-radius:30em;
   opacity:1;
 }
@@ -510,7 +508,7 @@ input.checkbox:checked:after {
     width: 13px;
     display: inline-block;
     background: #01bcfa;
-    border: 2px solid #fff;
+    border: 2px solid #000;
 }
 .callbacks_here a:after{
 	background:#ff304d;
@@ -528,12 +526,12 @@ input.checkbox:checked:after {
     font-size: 76px;
     margin-bottom: .4em;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     font-weight: bold;
     letter-spacing: 2px;
 }
 .slider_banner_info p {
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     letter-spacing: 4px;
     margin-bottom: 1.5em;
@@ -596,7 +594,7 @@ input.checkbox:checked:after {
     margin-bottom: 8px;
     outline: none;
     font-size: 14px;
-    color: #fff;
+    color: #000;
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
 }
@@ -622,7 +620,7 @@ option {
     margin-top: 0px;
     padding: 12px 0px;
     font-size: 12.5px;
-    color: #fff;
+    color: #000;
     letter-spacing: 1px;
     text-transform: uppercase;
     border: none;
@@ -658,7 +656,7 @@ option {
 }
 .navbar-default .navbar-brand {
 	font-family: 'Days One', sans-serif;
-	color:#fff !important;
+	color:#000 !important;
 	font-size:40px;
 	text-decoration: none;
 }
@@ -670,7 +668,7 @@ a.navbar-brand img {
     margin-top: 5px;
 }
 .navbar-default .navbar-brand:hover {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
 a.navbar-brand span {
@@ -682,11 +680,11 @@ a.navbar-brand span {
     min-height: inherit;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #fff;
+  color: #000;
   background-color: #2FD828;
 }
 .navbar-default .navbar-nav > li > a{
-	color: #fff;
+	color: #000;
 	font-size: 15px;
 	letter-spacing: 1px;
 	text-transform:uppercase;
@@ -707,10 +705,10 @@ a.navbar-brand span {
 	border:none;
 }
 .navbar-default .navbar-brand {
-    color: #fff;
+    color: #000;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a.active {
-    color: #ffffff;
+    color: #000000;
 }
 .navbar {
     border-radius: 0px;
@@ -742,7 +740,7 @@ a.navbar-brand span {
     font-size: 30px;
 }
 .modal-content h5 {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 27px;
     margin-bottom: 1em;
@@ -812,7 +810,7 @@ h4.title-w3 ,h2.title-w3 {
 .numscroller {
     font-size: 40px;
     margin: 20px 0 5px;
-    color: #ffffff;
+    color: #000000;
     letter-spacing: 1px;
     font-family: 'Lato', sans-serif;
 }
@@ -902,7 +900,7 @@ h4.agileits.w3layouts span {
 }
 .wthree_agile_us  i{
 	font-size: 1.5em;
-	color:#fff;
+	color:#000;
 	line-height:4em;
 }
 .wthree_agile_us{
@@ -973,7 +971,7 @@ h4.agileits.w3layouts span {
 /*-- //capabilities --*/
 /*-- team --*/
 h4.two {
-    color: #fff;
+    color: #000;
 }
 .team-grid-text-agile {
     padding: 6em 5em 0em 5em;
@@ -1018,7 +1016,7 @@ h4.two {
     top: 0;
     width: 100%;
     height: 100%;
-    color: #fff;
+    color: #000;
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transition: all 450ms ease-out 0s;
@@ -1041,14 +1039,14 @@ h4.two {
 }
 .team-grid h4 {
     font-size: 1.5em;
-    color: #fff;
+    color: #000;
     margin: 1em 0 .2em;
     text-transform: capitalize;
 }
 h3.tittle3 {
     font-size: 3.5em;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 .team-grid span {
     font-size: 1em;
@@ -1085,15 +1083,15 @@ h3.tittle3 {
 }
 .w3l-social ul li a i.fa.fa-facebook:hover {
 	background: #3b5998;
-	color: #FFFFFF;
+	color: #000000;
 }
 .w3l-social ul li a i.fa.fa-twitter:hover{
 	background: #1da1f2;
-	color: #FFFFFF;
+	color: #000000;
 }
 .w3l-social ul li a i.fa.fa-google-plus:hover{
 	background: #dd4b39;
-	color: #FFFFFF;
+	color: #000000;
 }
 .team-grid {
     text-align: center;
@@ -1116,7 +1114,7 @@ h3.tittle3 {
 	width: 100%;
 	height: 100%;
 	display: none;
-	color: #fff;
+	color: #000;
 }
 #jzBoxTargetImg {
 	margin:4% 0 1% 0;
@@ -1154,7 +1152,7 @@ h3.tittle3 {
 i#jzBoxPrev, i#jzBoxNext {
     font-size: 2em;
     padding: 0.2em;
-    border: 1px solid #fff;
+    border: 1px solid #000;
 	z-index: 99999;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all; 
@@ -1194,7 +1192,7 @@ i#jzBoxClose {
 	top: 0;
 }
 .view-caption p {
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     font-weight: 400;
     letter-spacing: 3px;
@@ -1205,7 +1203,7 @@ i#jzBoxClose {
     font-size: 17px;
     text-transform: uppercase;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
     letter-spacing: 2px;
     margin-bottom: 15px;
 }
@@ -1250,7 +1248,7 @@ a.a1 {
     -ms-transition: all 0.5s ease-in-out;
 }
 a.a1:hover {
-    color: #fff;
+    color: #000;
 	 transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -1260,7 +1258,7 @@ a.a1:hover {
 a.a2 {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: .5px;
@@ -1316,19 +1314,19 @@ a.a2:hover {
 /*--placeholder-color--*/
 
 ::-webkit-input-placeholder{
-	color:#fff!important;
+	color:#000!important;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #fff!important; 
+   color: #000!important; 
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff!important;  
+   color: #000!important;  
 }
 
 :-ms-input-placeholder {  
-   color: #fff!important;  
+   color: #000!important;  
 }
 /*--//placeholder-color--*/
 /*--copy-right--*/
@@ -1352,7 +1350,7 @@ a.a2:hover {
     -ms-transition: 0.5s all;
 }
 .copy p a:hover{
-	color: #ffffff!important;
+	color: #fff!important;
 	transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -1440,8 +1438,8 @@ a.a2:hover {
 		min-height: 512.4px;
 	}
 	.navbar-default .navbar-nav > li > a {
-		font-size: 13px;
-		padding: 16px 23px;
+		font-size: 18px;
+		padding: 25px 23px;
 	}
 	.team-grid h4 {
 		font-size: 1.4em;
@@ -1848,7 +1846,7 @@ a.a2:hover {
 	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 		border: none;
-		background: #000;
+		background: #fff;
 	}
 	.navbar-default .navbar-toggle {
 		border-color: rgba(0, 0, 0, 0.01);
@@ -1867,11 +1865,11 @@ a.a2:hover {
 		margin-left: 0;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
-		background-color: #FFF;
+		background-color: #000;
 	}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background-color: #01bcfa;
-		border-color: #fff;
+		border-color: #000;
 		transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -1883,7 +1881,7 @@ a.a2:hover {
 	}
 	.navbar-default .navbar-nav > li > a {
 		padding: 1em 0;
-		color: #fff;
+		color: #000;
 	}
 	.navbar-nav > li {
 		margin: 0;
@@ -1894,7 +1892,7 @@ a.a2:hover {
 		position: absolute;
 		width: 100%;
 		z-index: 999;
-		border: 1px solid #fff;
+		border: 1px solid #000;
 		margin-top: 0.5em;
 	}
 	.navbar-default .navbar-nav > li > a:before {
@@ -2109,7 +2107,7 @@ a.a2:hover {
 	}
 	.navbar-default .navbar-nav > li > a {
 		padding: .8em 0;
-		color: #fff;
+		color: #000;
 	}
 }
 @media(max-width:568px){
