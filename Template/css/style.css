@@ -475,7 +475,6 @@ h4.title-w6 {
   font-size: 35px;
     color: #fff;
     text-align: center;
-  text-transform:uppercase;
 }
 /*-- //main --*/
 /*-- welcome --*/
@@ -520,12 +519,13 @@ h4.title-w6 {
 }
 .contact-left {
     padding: 2.3em 3em;
-    background: #99f1d6;
+    background: rgba(153, 241, 214, 0.5);
+    overflow: auto;
 }
 .contact-agile {
-    position: absolute;
-    left: 5.5em;
-    bottom: 2em;
+    position: relative;
+    margin: auto;
+    width: 100%
 }
 .contact-agile h4{
     text-align: left;
@@ -539,7 +539,7 @@ h4.title-w6 {
     margin-bottom: 10px;
 }
 .contact-left p {
-    text-align: left;
+    text-align: center;
     font-size: 13.5px;
     /* margin-bottom: 10px; */
     color: #000;
@@ -601,15 +601,21 @@ a.a2:hover {
 }
 .contact-middle p {
     color: #b1b1b1;
-    margin-bottom: 4px;
-    /* margin-left: 5px; */
+    margin-bottom: 4px;/
     font-size: 15px;
+}
+.contact-left-div {
+width: 50%;
+float: left;
+text-align:center
+}
+.contact-rigth-div {
+width: 50%;
+float: left;
+text-align:center
 }
 /*--//Contact --*/
 /*--Mesaje de la Semana--*/
-#mensaje-block{
-  background-color: #f7b6bf;
-}
 #week-mensaje {
   padding-top: 2.5em;
   margin: auto;
@@ -621,7 +627,7 @@ a.a2:hover {
   font-weight: 600;
   text-transform: capitalize;
   margin-left: 2em;
-  color: #000;
+  color: #ff304d;
   font-style: italic;
 }
 #mensaje-main {
@@ -642,11 +648,13 @@ a.a2:hover {
 /*--//Mensaje de la Semana--/
 /*--Map --*/
 .map-w3ls {
+    width: 90%;
+    border-top: solid 0.1em rgba(0, 0, 0, 0.4);
     position: relative;
-    background-color: #f7b6bf;
     padding-bottom: 0px!important;
     padding-top: 2em;
     margin-top: 2em;
+    margin: auto;
 }
 .map-w3ls .por-definir {
     width: 100%;
@@ -685,10 +693,6 @@ a.a2:hover {
 	.top-nav-text {
 		width: 32%;
 	}
-  .contact-agile {
-    width: 1000px;
-    left: 19.2em;
-  }
   .contact-left h6 {
     font-size: 24px;
   }
@@ -717,10 +721,6 @@ a.a2:hover {
 	.banner-w3layouts {
 		min-height: 645px;
 	}
-  .contact-agile {
-    width: 900px;
-    left: 18em;
-  }
 }
 @media(max-width:1366px){
 	.slider_banner_info {
@@ -730,9 +730,6 @@ a.a2:hover {
 		font-size: 18px;
 		padding: 25px 23px;
 	}
-  .contact-agile {
-    width: 800px;
-  }
   .contact-left h6 {
     font-size: 22px;
   }
@@ -761,9 +758,6 @@ a.a2:hover {
 	.team h4.two {
 		margin-bottom: 22px!important;
 	}
-  .contact-agile {
-    width: 700px;
-  }
   .contact-left h6 {
     font-size: 19px;
   }
@@ -816,10 +810,6 @@ a.a2:hover {
 	.w3-welcome-left p {
 		font-size: 15px;
 	}
-	.contact-agile {
-    width: 600px;
-    left: 15em;
-  }
 }
 @media(max-width:1050px){
 	.top-nav-text {
@@ -847,9 +837,6 @@ a.a2:hover {
 	.numscroller {
 		margin: 5px 0 5px;
 	}
-  .contact-agile {
-    left: 14em;
-  }
 }
 @media(max-width:1024px){
 	.top-nav-text a {
@@ -879,9 +866,6 @@ a.a2:hover {
 	h4.title-w3 ,h2.title-w3 {
 		font-size: 27px;
 		margin-bottom: 35px;
-	}
-	.contact-agile {
-    width: 550px;
 	}
   .contact-left p {
     font-size: 18px;
@@ -915,10 +899,6 @@ a.a2:hover {
 	.banner-w3layouts {
 		min-height: 500px;
 	}
-  .contact-agile {
-    left: 13em;
-    width: 500px;
-  }
 }
 @media(max-width:800px){
 	.top-nav-text a {
@@ -957,11 +937,6 @@ a.a2:hover {
 	.contact-left {
 		padding: 2em 2.5em;
 	}
-	.contact-agile {
-		left: 11em;
-    width: 450px;
-
-	}
 	.map-w3ls iframe {
 		height: 27.5em;
 	}
@@ -980,9 +955,6 @@ a.a2:hover {
 	.w3l_banner_info {
 		width: 90%;
 	}
-  .contact-agile {
-    left: 10em;
-  }
 }
 @media(max-width:767px){
 	ul.nav.navbar-nav.navbar-right {
@@ -1096,16 +1068,10 @@ a.a2:hover {
 	.banner-w3layouts {
 		min-height: 455px;
 	}
-  .contact-agile {
-    width: 400px;
-    left: 10.5em;
-  }
 }
 @media(max-width:667px){
 	.contact-agile {
     bottom: 2.5em;
-    width: 350px;
-    left: 10em;
 	}
 	.w3ls-submit {
 		margin-top: 1.5em;
@@ -1144,8 +1110,6 @@ a.a2:hover {
 	}
   .contact-agile {
     bottom: 2.5em;
-    width: 350px;
-    left: 9em;
   }
 }
 @media(max-width:600px){
@@ -1175,9 +1139,6 @@ a.a2:hover {
 	}
 	h4.title-w3 ,h2.title-w3 {
 		font-size: 22px;
-	}
-	.contact-agile {
-    left: 8em;
 	}
 	.navbar-default .navbar-nav > li > a {
 		padding: .8em 0;
@@ -1213,9 +1174,6 @@ a.a2:hover {
 	}
 	.w3-welcome-left h5 {
 		line-height: 25px;
-	}
-	.contact-agile {
-		left: 7em;
 	}
 }
 @media(max-width:480px){
@@ -1267,10 +1225,6 @@ a.a2:hover {
 		width: 100%;
 		margin-bottom: .7em;
 	}
-	.contact-agile {
-		left: 6.1em;
-    width: auto;
-	}
   #week-mensaje h1 {
     font-size: 2.2em;
   }
@@ -1309,9 +1263,6 @@ a.a2:hover {
 	#toTop {
 		bottom: 16px;
 	}
-	.contact-agile {
-		left: 4.8em;
-	}
 	.contact-left {
 		padding: 1.7em 2em;
 	}
@@ -1346,9 +1297,6 @@ a.a2:hover {
 		text-align: center;
 		padding: 0px;
 	}
-	.contact-agile {
-		left: 3.6em;
-	}
 	.gallery {
 		padding: 35px 0px;
 	}
@@ -1370,9 +1318,6 @@ a.a2:hover {
 	.nav-contact-w3ls {
 		margin-right: 7px;
 	}
-  .contact-agile {
-    left: 3.4em;
-  }
 }
 @media(max-width:320px){
 	.glyphicon.glyphicon-phone {
@@ -1406,9 +1351,6 @@ a.a2:hover {
 	.navbar-header h1 a {
 		font-size: 20px;
 		padding: 11px 17px;
-	}
-  .contact-agile {
-		left: 1.6em;
 	}
 	#toTop {
 		bottom: 8px;
