@@ -620,19 +620,20 @@ text-align:center
   padding-top: 2.5em;
   margin: auto;
   height: 5em;
+  width: 80%
 }
 #week-mensaje h1 {
   font-family: 'Quattrocento', sans-serif;
   font-size: 2em;
   font-weight: 600;
   text-transform: capitalize;
-  margin-left: 2em;
+  /* margin-left: 2em; */
   color: #ff304d;
   font-style: italic;
 }
 #mensaje-main {
   font-family: 'Satisfy', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.9em;
   text-align: justify;
   margin-top: 1.5em;
   color: #000;
@@ -644,21 +645,25 @@ text-align:center
   margin: auto;
   padding-bottom: 2em;
 }
-
+#mensaje-block {
+  width: 90%;
+}
+.espaciado {
+  height: 2em;
+}
 /*--//Mensaje de la Semana--/
 /*--Map --*/
 .map-w3ls {
     width: 90%;
-    border-top: solid 0.1em rgba(0, 0, 0, 0.4);
+    /* order-top: solid 0.1em rgba(0, 0, 0, 0.4); */
     position: relative;
     padding-bottom: 0px!important;
     padding-top: 2em;
-    margin-top: 2em;
     margin: auto;
 }
 .map-w3ls .por-definir {
     width: 100%;
-    height: 20em;
+    height: 5em;
     border: none;
 }
 /*-- //Map--*/
@@ -753,7 +758,7 @@ text-align:center
 		font-size: 35px;
 	}
 	.slider_banner_info h4 {
-		font-size: 63px;
+		font-size: 53px;
 	}
 	.team h4.two {
 		margin-bottom: 22px!important;
@@ -765,13 +770,16 @@ text-align:center
     font-size: 19px;
   }
   .contact-left span {
-    font-size: 15px;
+    font-size: 18px;
   }
   h4.title-w6 {
    padding-bottom: .4em;
   }
 }
 @media(max-width:1080px){
+  #mensaje-main {
+    font-size: 1.6em;
+  }
 	.top-nav-text {
 		width: 39.7%;
 	}
@@ -881,6 +889,12 @@ text-align:center
 	}
 }
 @media(max-width:900px){
+  #week-mensaje h1 {
+    font-size: 1.7em;
+  }
+  #mensaje-main {
+    font-size: 1.5em;
+  }
 	.slider_banner_info h4 {
 		font-size: 41px;
 	}
@@ -1053,6 +1067,17 @@ text-align:center
 	}
 }
 @media(max-width:736px){
+  h4.title-w6 {
+    padding-bottom: 1.4em;
+  }
+  .contact-left-div {
+    width: 100%;
+    float: none;
+  }
+  .contact-rigth-div {
+    width: 100%;
+    float: none;
+  }
 	a.a2 {
 		padding: 6px;
 	}
@@ -1177,6 +1202,12 @@ text-align:center
 	}
 }
 @media(max-width:480px){
+  #mensaje-main {
+    font-size: 1.3em;
+  }
+  #week-mensaje h1 {
+    font-size: 2em;
+  }
 	.nav-contact-w3ls p {
 		font-size: 11px;
 	}
@@ -1196,6 +1227,7 @@ text-align:center
 	.slider_banner_info h4 {
 		font-size: 21px;
 		margin-bottom: 2px;
+    margin-top: 50px;
 		line-height: 20px;
 	}
 	.slider_banner_info p {
