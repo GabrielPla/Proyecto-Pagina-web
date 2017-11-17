@@ -632,9 +632,11 @@ text-align:center
   font-style: italic;
 }
 #mensaje-main {
-  font-family: 'Satisfy', sans-serif;
-  font-size: 1.9em;
+  font-family: 'Bubblegum Sans', sans-serif;
+  font-size: 30px;
   text-align: justify;
+  line-height: 50px;
+  letter-spacing: 1px;
   margin-top: 1.5em;
   color: #000;
   font-style: italic;
@@ -647,6 +649,9 @@ text-align:center
 }
 #mensaje-block {
   width: 90%;
+}
+#center {
+  text-align: center;
 }
 .espaciado {
   height: 2em;
